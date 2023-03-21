@@ -9,11 +9,6 @@ function App() {
   const [count, setCount] = useState(0)
   const [history, setHistory] = useState([])
 
-  // const saveTotal = () => {
-  //   setHistory = [...history, count]
-  //   reset()
-  // }
-
   const increment = (step) => {
     console.log('here')
     setCount(count + step)
